@@ -9,7 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@aws-sdk/cloudfront-signer": "^3.985.0",
+    "@types/openseadragon": "^5.0.2",
     "next": "16.1.6",
+    "openseadragon": "^5.0.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
