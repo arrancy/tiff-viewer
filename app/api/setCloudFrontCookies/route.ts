@@ -13,7 +13,7 @@ export async function GET() {
       "base64",
     ).toString("utf-8");
     const keyPairId = process.env.KEY_PAIR_ID!;
-    const dateLessThan = "2026-02-13";
+    const dateLessThan = "2026-02-16";
 
     const policy = {
       Statement: [

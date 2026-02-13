@@ -37,7 +37,7 @@ export default function Viewer() {
   return (
     <>
       {isCloudFrontUrl ? (
-        <div className="fixed top-1/2 left-1/2 " id="deepZoomViewer"></div>
+        <div className=" h-78 w-96" id="deepZoomViewer"></div>
       ) : (
         <div className="bg-slate-950 text-slate-400 font-semibold">
           loading...
